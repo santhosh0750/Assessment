@@ -6,8 +6,8 @@ import Provider from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Docto Techonalogies",
-  description: "Product Dashboard for Docto Techonalogies",
+  title: "Docto Technologies",
+  description: "Product Dashboard for Docto Technologies",
 };
 
 export default function RootLayout({ children }) {
