@@ -113,7 +113,7 @@ export default function ProductAdd({ openModal, setOpenModal }) {
         </DialogTitle>
         <DialogContent sx={{ m: 0, px: 3, py: 1 }}>
           <div className="grid grid-cols-12 mt-1 ">
-            <div className="col-span-12 md:col-span-12 md:col-span-6 p-2 ">
+            <div className="col-span-12  md:col-span-6 p-2 ">
               <TextField
                 size="small"
                 label="Product Image Url"
