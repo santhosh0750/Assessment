@@ -8,7 +8,7 @@ export default function Page() {
 
   useEffect(() => {
     // console.log("Page component mounted");
-    router.push("/DashBord");
+    router.push("/DashBoard");
   }, []);
   return (
     <div className="h-screen flex   justify-center items-center ">

@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Name
 
-## Getting Started
+    Product DashBoard
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    A Dashboard that displays a list of products with sorting and category-based filters.
+    It also includes filters for stock and out-of-stock products, and allows users to add new products with an image URL, name, and details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Built with a simple and user-friendly interface for efficient product management.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Framework: Next.js (JavaScript)
+            Reason : React’s large community and ecosystem make development easier with the use if visual Dom
+    UI Library: MUI (Material-UI) ,tailwind
+            Reason : Used for building a responsive and visually consistent interface.
+                    MUI provides a large number of reusable and customizable components, while Tailwind ensures responsive design across different screen sizes.
 
-## Learn More
+    Hosting / Deployment: Netlify
 
-To learn more about Next.js, take a look at the following resources:
+## Installations and Folder Explainition
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+     Next Project - npx create-next-app@latest assesement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+     MUI  - npm install @mui/material @emotion/react @emotion/styled
 
-## Deploy on Vercel
+     Font - Inter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+     Provider.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+     A wrapper component that applies global styles for MUI components and provides shared context values across the application.
+     It ensures consistent theming and state management throughout the app.
+
+     Components Folder For Product Add (Dialog), Product Card
+
+     DashBoard Folder Contain page With all the Contents
+
+## Authors and Acknowledgment
+
+     Developed by Santhosh M.
+
+     A sincere thank you to Docto Technologies pvt.Ltd for giving me this opportunity to showcase my skills and build this project.
